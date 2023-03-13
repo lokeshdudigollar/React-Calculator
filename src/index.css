@@ -1,0 +1,66 @@
+.calculator {
+  border: 2px solid #47476b;
+  padding: 5px;
+  background: black;
+  width: 320px;
+  position: relative;
+  margin: 10px auto;
+}
+p {
+  color: orange;
+  text-align: center;
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: #4d4d4d;
+  font-family: monospace;
+  font-size: 20px;
+  cursor: default;
+}
+
+#clear {
+  width: 160px;
+  background: rgb(172, 57, 57);
+}
+
+#zero {
+  width: 160px;
+  background: #4d4d4d;
+}
+
+#equal {
+  background: rgb(0, 68, 102);
+  height: 130px;
+  position: absolute;
+}
+
+.outputScreen {
+  font-size: 29px;
+  font-family: digital;
+  color: white;
+  text-align: right;
+  line-height: 35px;
+  height: 30px;
+}
+
+#divide,
+#multiply,
+#substract,
+#add {
+  background: rgb(102, 102, 102);
+}
+
+.formulaScreen {
+  font-size: 29px;
+  font-family: digital;
+  color: orange;
+  text-align: right;
+  line-height: 35px;
+  height: 30px;
+}
